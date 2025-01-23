@@ -1,0 +1,38 @@
+/* Syntax:
+    selector{
+    property:value;
+    property1:value1; */
+/* id selector */
+#heading {
+  background-color: aqua;
+}
+
+/* tag selector */
+p{
+  color: brown;
+  font-weight: bold;
+}
+
+/* class selector */
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: burlywood;
+  border-radius: 30%;
+}
+
+/*  descendent selector*/
+/* select all p tag inside box class */
+.box p{
+  color: blueviolet;
+}
+/* child selector */
+/* select only first p tag inside box */
+.box>p{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* research */
+/* psuedo class [:] */
+/* psuedo element[::] */
